@@ -1,6 +1,6 @@
 <mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/29.6.1 Chrome/142.0.7444.265 Electron/39.8.0 Safari/537.36" version="29.6.1">
   <diagram name="Page-1" id="eOzWnrZBcC30grB2DG21">
-    <mxGraphModel dx="2135" dy="1123" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1281" dy="674" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -172,7 +172,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="tnEm9dg9qmmmI9w5VtZP-48" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Order service" vertex="1">
-          <mxGeometry height="30" width="90" x="650" y="2290" as="geometry" />
+          <mxGeometry height="30" width="90" x="652" y="2550" as="geometry" />
         </mxCell>
         <mxCell id="tnEm9dg9qmmmI9w5VtZP-49" edge="1" parent="1" source="tnEm9dg9qmmmI9w5VtZP-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.52;entryY=0.921;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.971;exitY=-0.025;exitDx=0;exitDy=0;exitPerimeter=0;" target="tnEm9dg9qmmmI9w5VtZP-41">
           <mxGeometry relative="1" as="geometry" />
@@ -226,7 +226,7 @@
           <mxGeometry height="30" width="110" x="1385" y="2620" as="geometry" />
         </mxCell>
         <mxCell id="tnEm9dg9qmmmI9w5VtZP-70" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Order DB" vertex="1">
-          <mxGeometry height="30" width="60" x="1370" y="2430" as="geometry" />
+          <mxGeometry height="30" width="60" x="1360" y="2480" as="geometry" />
         </mxCell>
         <mxCell id="tnEm9dg9qmmmI9w5VtZP-72" edge="1" parent="1" source="tnEm9dg9qmmmI9w5VtZP-59" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.995;exitY=0.005;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.583;entryY=0.974;entryDx=0;entryDy=0;entryPerimeter=0;" target="tnEm9dg9qmmmI9w5VtZP-71" value="">
           <mxGeometry relative="1" as="geometry">
@@ -294,6 +294,21 @@
         </mxCell>
         <mxCell id="tnEm9dg9qmmmI9w5VtZP-92" edge="1" parent="1" source="tnEm9dg9qmmmI9w5VtZP-89" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.156;entryY=0.597;entryDx=0;entryDy=0;entryPerimeter=0;" target="tnEm9dg9qmmmI9w5VtZP-29">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BVTXPhgF_7fo6k6qqGUg-2" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Cart service" vertex="1">
+          <mxGeometry height="30" width="60" x="690" y="2280" as="geometry" />
+        </mxCell>
+        <mxCell id="BVTXPhgF_7fo6k6qqGUg-3" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Cart Database" vertex="1">
+          <mxGeometry height="30" width="80" x="950" y="2250" as="geometry" />
+        </mxCell>
+        <mxCell id="BVTXPhgF_7fo6k6qqGUg-6" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Redis" vertex="1">
+          <mxGeometry height="30" width="60" x="1220" y="1920" as="geometry" />
+        </mxCell>
+        <mxCell id="BVTXPhgF_7fo6k6qqGUg-8" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="User Database" vertex="1">
+          <mxGeometry height="30" width="100" x="920" y="1240" as="geometry" />
+        </mxCell>
+        <mxCell id="BVTXPhgF_7fo6k6qqGUg-10" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Connector" vertex="1">
+          <mxGeometry height="30" width="60" x="820" y="1749" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
