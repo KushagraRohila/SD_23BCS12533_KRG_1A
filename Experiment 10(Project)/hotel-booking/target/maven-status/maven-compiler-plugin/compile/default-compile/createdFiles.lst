@@ -1,0 +1,17 @@
+com\example\hotelbooking\service\BookingService.class
+com\example\hotelbooking\dto\UserRegistrationRequest.class
+com\example\hotelbooking\entity\User.class
+com\example\hotelbooking\repository\BookingRepository.class
+com\example\hotelbooking\service\RoomService.class
+com\example\hotelbooking\dto\UserResponse.class
+com\example\hotelbooking\dto\BookingRequest.class
+com\example\hotelbooking\controller\RoomController.class
+com\example\hotelbooking\entity\Booking.class
+com\example\hotelbooking\controller\UserController.class
+com\example\hotelbooking\config\DataInitializer.class
+com\example\hotelbooking\entity\Room.class
+com\example\hotelbooking\HotelBookingApplication.class
+com\example\hotelbooking\controller\BookingController.class
+com\example\hotelbooking\repository\RoomRepository.class
+com\example\hotelbooking\service\UserService.class
+com\example\hotelbooking\repository\UserRepository.class

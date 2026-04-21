@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotel Booking System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Hotel Booking System</h1>
+        
+        <div class="tabs">
+            <button class="tab-btn active" onclick="switchTab('register')">Register</button>
+            <button class="tab-btn" onclick="switchTab('profile')">My Profile</button>
+            <button class="tab-btn" onclick="switchTab('rooms')">Rooms</button>
+            <button class="tab-btn" onclick="switchTab('booking')">Book Room</button>
+        </div>
+        
+        <!-- Registration Tab -->
+        <div id="register" class="tab-content active">
+            <h2>User Registration</h2>
+            <form id="registrationForm">
+                <div class="form-group">
+                    <label for="regUsername">Username:</label>
+                    <input type="text" id="regUsername" name="username" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="regEmail">Email:</label>
+                    <input type="email" id="regEmail" name="email" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="regPassword">Password:</label>
+                    <input type="password" id="regPassword" name="password" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="regFirstName">First Name:</label>
+                    <input type="text" id="regFirstName" name="firstName" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="regLastName">Last Name:</label>
+                    <input type="text" id="regLastName" name="lastName" required>
+                </div>
+                
+                <button type="submit" class="btn">Register</button>
+            </form>
+            
+            <div id="regMessage" class="message"></div>
+        </div>
+        
+        <!-- Profile Tab -->
+        <div id="profile" class="tab-content">
+            <h2>My Profile</h2>
+            <form id="profileForm">
+                <div class="form-group">
+                    <label for="profileUserId">User ID:</label>
+                    <input type="number" id="profileUserId" name="userId" required>
+                </div>
+                
+                <button type="submit" class="btn">Fetch Profile</button>
+            </form>
+            
+            <div id="profileData" class="profile-data"></div>
+            <div id="profileMessage" class="message"></div>
+        </div>
+        
+        <!-- Rooms Tab -->
+        <div id="rooms" class="tab-content">
+            <h2>Rooms Management</h2>
+            
+            <div class="rooms-section">
+                <h3>Add New Room</h3>
+                <form id="addRoomForm">
+                    <div class="form-group">
+                        <label for="roomType">Room Type:</label>
+                        <input type="text" id="roomType" name="type" placeholder="e.g., Single, Double, Deluxe" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="roomPrice">Price (per night):</label>
+                        <input type="number" id="roomPrice" name="price" step="0.01" min="0" placeholder="e.g., 50.00" required>
+                    </div>
+                    
+                    <button type="submit" class="btn">Add Room</button>
+                </form>
+                <div id="addRoomMessage" class="message"></div>
+            </div>
+            
+            <hr style="margin: 30px 0; border: none; border-top: 1px solid #ddd;">
+            
+            <h3>Available Rooms</h3>
+            <div class="room-filters">
+                <button type="button" class="btn-secondary" onclick="loadAllRooms()">All Rooms</button>
+                <button type="button" class="btn-secondary" onclick="loadAvailableRooms()">Available Only</button>
+            </div>
+            
+            <div id="roomsList" class="rooms-list"></div>
+            <div id="roomsMessage" class="message"></div>
+        </div>
+        
+        <!-- Booking Tab -->
+        <div id="booking" class="tab-content">
+            <h2>Book a Room</h2>
+            <form id="bookingForm">
+                <div class="form-group">
+                    <label for="userId">User ID:</label>
+                    <input type="number" id="userId" name="userId" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="roomId">Room ID:</label>
+                    <input type="number" id="roomId" name="roomId" required>
+                </div>
+                
+                <button type="submit" class="btn">Book Room</button>
+            </form>
+            
+            <div id="message" class="message"></div>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
